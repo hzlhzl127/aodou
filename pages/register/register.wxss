@@ -1,0 +1,40 @@
+/* pages/register/register.wxss */
+page {
+	background-color:whitesmoke
+}
+
+.top{
+	font-size: 90rpx;
+	font-weight: bold;
+	margin-top: 30rpx;
+	margin-left: 10rpx;
+	color: midnightblue;
+}
+.root{
+	margin-top: 30rpx;
+}
+
+.item{
+	display: flex;
+	background-color: white;
+	align-items: center;
+	padding: 30rpx 50rpx;
+	margin-bottom: 20rpx;
+	border-radius: 5%;
+	border: 3rpx solid whitesmoke;
+}
+
+.item text{
+	margin-right: 50rpx;
+}
+.btn{
+	background-color:black;
+	color: white;
+	font-weight: bold;
+	margin: 50rpx 90rpx;
+}
+.btn1{
+	background-color: white;
+	font-weight: bold;
+	margin: 50rpx 90rpx;
+}

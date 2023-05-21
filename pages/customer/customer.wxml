@@ -1,0 +1,4 @@
+<!--pages/customer/customer.wxml-->
+<view>
+	已为您匹配到您的专属客服
+</view>

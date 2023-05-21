@@ -1,0 +1,41 @@
+<!--pages/put/put.wxml-->
+<form bindsubmit="register">
+	
+
+	<view class="top">发布活动</view>
+	<view class="root">
+		<view class="item">
+					<text>活动名称:</text>
+					<input placeholder="请填写正确活动名称" name='name'/>
+		</view>
+		<view class="item">
+					<text>活动地点:</text>
+					<input placeholder="请填写正确活动地点" name='place'/>
+		</view>
+		<view class="item">
+					<text>开始时间:</text>
+					<input placeholder="20xx年xx月xx日" name='starTime'/>
+		</view>
+		<view class="item">
+					<text>结束时间:</text>
+					<input placeholder="20xx年xx月xx日" name='endTime'/>
+		</view>
+		<view class="item">
+					<text>负责人联系方式:</text>
+					<input placeholder="电话/VX:xxxxxxxxxxxxx" name='contact'/>
+		</view>
+		<view class="item1">
+					<text>详情描述:</text>
+					<textarea placeholder="例如:三七篮球杯篮球大赛是一项备受期待的盛大篮球赛事。该比赛旨在为篮球爱好者提供一个展示技巧和竞争实力的平台..." name='actext'/>
+		</view>
+	
+	<view>
+			<button class="btn1" bindtap="chooseImg">活动主题图片</button>
+	</view>
+	
+	</view>
+	<button class="btn" form-type="submit">发布活动</button>
+	
+		
+	</form>
+	

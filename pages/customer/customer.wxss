@@ -1,0 +1,4 @@
+/* pages/customer/customer.wxss */
+page {
+  background-color:whitesmoke /* 设置背景颜色为白色 */
+}

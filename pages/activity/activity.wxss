@@ -1,0 +1,55 @@
+/* pages/activity/activity.wxss */
+page {
+  background-color:whitesmoke/* 设置背景颜色为白色 */
+}
+
+.title{
+	position: absolute;
+	top: 150rpx;
+	font-size:xx-large;
+	text-align: center;
+	font-weight: bold;
+	margin: 30rpx;
+	color:skyblue
+}
+
+.full-width-image {
+	width: 100%;
+	
+	height: 400rpx;
+}
+
+.container {
+	padding:10rpx ;
+	background-color:white;
+	
+}
+
+.info1{
+height: 300rpx;
+width: 100%;
+background-color:white;
+border: 3rpx solid #ccc;
+border-radius: 10rpx;
+border-radius: 10rpx;
+}
+.info2{
+	margin: 30rpx;
+	font-size: small;
+}
+
+.info {
+	padding: 50rpx 100rpx;
+	margin-bottom: 10rpx;
+	width: 660rpx;
+	background-color:white;
+
+}
+.info3{
+	margin-bottom:30rpx ;
+	color: gray;
+}
+
+.activity-info view {
+  margin-bottom: 5rpx;
+}

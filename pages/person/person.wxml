@@ -1,0 +1,63 @@
+<!--pages/person/person.wxml-->
+
+
+		<!--已经登录--->
+		<view class="toproot" wx:if="{{user&&user.name}}">
+		
+		<image src="{{user.avatarUrl}}" class="topimg" />
+		<view>
+			<view class="top_name">{{user.name}}</view>
+	     <view class = "login_out" bindtap="loginOut">退出登录</view>
+		</view>
+	
+</view>
+
+
+<!--未登录-->
+	<view class="toproot" wx:else>
+		<image src="../../picture/用户.png" class="topimg" mode=""/>
+			<view class="top_name" bindtap="login">登录</view>     
+	</view>
+
+
+
+
+
+
+	<view wx:if="{{user&&user.name}}">
+<view class="item">
+<view class="item_name">修改资料</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+<view class="item">
+<view class="item_name">我的活动</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+<view class="item">
+<view class="item_name">我的评测</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+<view class="item">
+<view class="item_name">我发布的</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+	
+</view>
+
+
+<view class="item">
+<button class="item_name" open-type="feedback">反馈建议</button>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+<view class="item">
+<button class="item_name" open-type="contact">在线客服</button>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+
+
+
+
+
+
+
+

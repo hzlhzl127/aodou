@@ -1,0 +1,52 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [
+		"pages/index/index",
+		"pages/found/found",
+		"pages/person/person",
+		"pages/customer/customer",
+		"pages/activity/activity",
+		"pages/login/login",
+		"pages/put/put",
+		"pages/register/register"
+		
+	],
+	"window": {
+		"navigationBarTitleText": "鳌斗篮球"
+	},
+
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#4285F4",
+		"list": [
+			{
+				"iconPath": "picture/001_首页.png",
+				"selectedIconPath": "picture/001_收藏.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "picture/001_搜索.png",
+				"selectedIconPath": "picture/001_收藏.png",
+				"pagePath": "pages/found/found",
+				"text": "发现"
+			},
+			{
+				"iconPath": "picture/add.png",
+				"selectedIconPath": "picture/001_收藏.png",
+				"pagePath": "pages/put/put",
+				"text": "发布活动"
+			},
+			{
+				"iconPath": "picture/001_我的.png",
+				"selectedIconPath": "picture/001_收藏.png",
+				"pagePath": "pages/person/person",
+				"text": "个人"
+			}
+		]
+	},
+	"networkTimeout": {
+		"request": 10000,
+		"downloadFile": 10000
+	}
+}

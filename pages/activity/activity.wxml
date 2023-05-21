@@ -1,0 +1,27 @@
+<!--pages/activity/activity.wxml-->
+<view>
+	<view class="title">{{activities.name}}</view>
+	<view class="banner">
+		<image class="full-width-image" src="{{activities.avatarUrl}}" />
+	</view>
+	
+
+	<view class="container">
+ 
+<view class="info1">
+	<view class="info2">{{activities.actext}}</view>
+</view>
+		
+
+
+  <view class="info">
+          <view class="info3">开始时间：{{activities.starTime}}</view>
+          <view class="info3">结束时间：{{activities.endTime}}</view>
+          <view class="info3">活动地点：{{activities.place}}</view>
+					<view class="info3">活动负责人联系方式：{{activities.contact}}</view>
+  </view>
+</view>
+    <button bindtap="handleButtonClick">参与此活动</button>
+  
+
+</view>

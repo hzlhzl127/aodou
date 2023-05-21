@@ -1,0 +1,71 @@
+/* pages/person/person.wxss */
+page {
+	background-color:whitesmoke
+}
+
+.toproot{
+	display: flex;
+	align-items: center;
+	margin-top: 130rpx;
+	margin-bottom: 50rpx;
+}
+
+.topimg{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 50%;
+	margin: 40rpx;
+}
+
+.top_name{
+	font-size: 48rpx;
+	font-weight: bold;
+}
+
+.login_out{
+	font-size: 30rpx;
+	margin-top: 20rpx;
+	color: gray;
+}
+
+.item{
+	display: flex;
+	align-items: center;
+	background-color: white;
+	height: 90rpx;
+	border-bottom:8rpx solid whitesmoke;
+	border-radius: 5%;
+}
+
+.right_arrow{
+	height: 50rpx;
+	width: 50rpx;
+	right: 30rpx;
+	margin-left: auto;
+}
+
+.item_name{
+	font-size: 42rpx;
+	margin-left: 30rpx;
+}
+
+button{
+	width: 100%;
+	background-color:white;
+	border: none;
+	text-align: left;
+	padding: 0%;
+	margin: 0px;
+	line-height: 1.3;
+}
+button::after{
+	border: none;
+	border-radius: 0;
+}
+
+.button-hover {
+	color:gray;
+	background-color: white;
+}
+
+	

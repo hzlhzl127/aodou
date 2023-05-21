@@ -1,0 +1,49 @@
+<!--pages/register/register.wxml-->
+<form bindsubmit="register">
+	
+
+<view class="top">注册账号</view>
+<view class="root">
+	<view class="item">
+				<text>账号:</text>
+				<input placeholder="账号长度应大于5位" name='account'/>
+	</view>
+	<view class="item">
+				<text>密码:</text>
+				<input placeholder="密码长度应大于5位" name='password'/>
+	</view>
+	<view class="item">
+				<text>姓名:</text>
+				<input placeholder="请输入您的真实姓名" name='name'/>
+	</view>
+	<view class="item">
+				<text>年龄:</text>
+				<input placeholder="请输入您的年龄" name='age'/>
+	</view>
+	<view class="item">
+				<text>身高:</text>
+				<input placeholder="请输入您的身高/cm" name='height'/>
+	</view>
+	<view class="item">
+				<text>体重:</text>
+				<input placeholder="请输入您的体重/kg" name='weight'/>
+	</view>
+	<view class="item">
+  <text>性别:</text>
+  <radio-group name='sex'>
+    <radio value="male" checked="{{gender==='male'}}" />
+    <text>男</text>
+    <radio value="female" checked="{{gender==='female'}}" />
+    <text>女</text>
+  </radio-group>
+</view>
+
+<view>
+		<button class="btn1" bindtap="chooseImg">用户头像</button>
+	</view>
+
+</view>
+<button class="btn" form-type="submit">注册</button>
+
+	
+</form>

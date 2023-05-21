@@ -1,0 +1,67 @@
+/**index.wxss**/
+page {
+  background-color:whitesmoke /* 设置背景颜色为白色 */
+}
+
+swiper{
+	width: 100%;
+	background-color: black;
+	
+}
+
+.full-width-image {
+
+	width: 100%;
+	border-radius: 15rpx;
+}
+
+.container {
+	padding: 10rpx;
+}
+
+
+
+.activity-list {
+	margin-top: 10rpx;
+}
+.indeximg {
+	margin-top: 30rpx;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px; /* 添加左边距以与内容框分隔开 */
+}
+
+.activity-item {
+  display: flex; /* 使用 Flexbox 布局 */
+  align-items: center; /* 在主轴上垂直居中 */
+  justify-content: space-between; /* 在主轴上两端对齐，图片和内容框之间的空间平分 */
+  border: 1rpx solid white;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  padding-top: 20rpx;
+  padding-bottom: 60rpx;
+  margin-bottom: 30rpx;
+	width: 660rpx;
+	height: 220rpx;
+  background-color: white;
+}
+
+.activity-name {
+	color: black;
+	float: top;
+  font-size: 40rpx;
+  font-weight: bold;
+
+}
+
+.activity-info {
+  font-size: 20rpx;
+  color: #666;
+}
+
+.activity-info view {
+  margin-bottom: 5rpx;
+}
