@@ -1,2 +1,52 @@
 <!--pages/found/found.wxml-->
-<text>pages/found/found.wxml</text>
+ 
+<view class="video" wx:if="{{videoHide}}">
+	<view class="text-overlay">
+    <text>赛事回放</text>
+</view>
+<txv-component autoplay="{{false}}" usePoster="{{true}}" vid="w09568phbhk" playerid="tvp6"><!-- 里面可以放插槽 --></txv-component>
+	
+</view>
+
+
+<view class="first">
+	
+<view class="{{buttonClass1}}" bindtouchend="no"  id="1" bindtouchstart="touch">
+<view class="item_name">🤖 智能评测</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+
+<view class="{{buttonClass2}}" bindtouchend="no"  id="2" bindtouchstart="touch">
+<view class="item_name">👓 VR实训</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+
+<view class="{{buttonClass3}}" bindtouchend="no"  id="3" bindtouchstart="touch">
+<view class="item_name">📰 独家资讯</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+
+<view class="{{buttonClass4}}" bindtouchend="xi"  id="4" bindtouchstart="touch">
+<view class="item_name">🏀 私人教练</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+</view>
+
+<view class="second">
+	<view class="{{buttonClass5}}" bindtouchend="star"  id="5" bindtouchstart="touch">
+<view class="item_name">⛹ 明星球员</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+
+<view class="{{buttonClass6}}" bindtouchend="course"  id="6" bindtouchstart="touch">
+<view class="item_name" >📘 付费课程</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+
+<view class="{{buttonClass7}}" bindtouchend="vip"  id="7" bindtouchstart="touch">
+<view class="item_name" >👨‍💼 我的会员</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+</view>
+	
+

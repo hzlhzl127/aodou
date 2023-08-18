@@ -1,0 +1,23 @@
+<!--pages/myact/myact.wxml-->
+<view class="top">
+	您发布的活动:
+</view>
+<view class="container">
+	<image class="img" src="https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/%E7%BC%BA%E7%9C%81%E9%A1%B5_%E6%9A%82%E6%97%A0%E6%95%B0%E6%8D%AE.png?sign=a62238b83c59370563d8692c6d82ce91&t=1690083046" mode="aspectFit"/>
+<block wx:for="{{activities}}" wx:key="index">
+      <view class="activity-item" bindtap="goToPage" data-id="{{item._id}}">
+			
+        <view class="activity-info">	
+					<view class="activity-name">{{item.name}}</view>
+					<view>________</view>
+          <view>开始时间：{{item.starTime}}</view>
+          <view>结束时间：{{item.endTime}}</view>
+          <view>活动地点：{{item.place}}</view>
+				
+        </view>
+				<view><image src="{{item.avatarUrl}}" class = "indeximg"/></view>
+      </view>
+			<button class="btn" bindtouchend="deleteActivity" data-id="{{item._id}}">删除</button>
+    </block>
+		
+	</view>

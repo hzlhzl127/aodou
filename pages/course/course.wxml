@@ -1,0 +1,4 @@
+<!--pages/course/course.wxml-->
+<view class="top">
+<image src="../../picture/课程群码.jpg" class="img"/>
+恭喜获得免费体验资格,请添加群获取独家课程</view>

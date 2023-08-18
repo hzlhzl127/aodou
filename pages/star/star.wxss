@@ -1,0 +1,54 @@
+/* pages/star/star.wxss */
+page {
+	background: linear-gradient(to bottom, #284155, white);
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.head{
+	margin-top: 20rpx;
+	height: 300rpx;
+	width: 300rpx;
+}
+.top{
+	 position: relative;
+	font-size: 90rpx;
+	font-weight: lighter;
+	margin-top: 30rpx;
+	margin-left: 10rpx;
+	color:#fee39a;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item{
+	margin: 20rpx;
+	margin-top: 50rpx;
+	height: 1300rpx;
+	padding: 20rpx;
+	background-color: white;
+	border-radius: 20rpx;
+	text-align: center;
+	box-shadow: 1rpx 1rpx 20rpx rgba(0, 0,0 ,0.5);
+}
+.img{
+	width: 400rpx;
+	margin: 50rpx 140rpx;
+	border-radius: 10rpx;
+}
+.name{
+	margin: 0rpx 130rpx;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	padding-bottom: 10rpx;
+	border-radius: 25rpx;
+	
+}
+.introduce{
+	margin-top: 50rpx;
+	color: rgb(107, 106, 106);
+	line-height: 2.2;
+	font-weight: lighter;
+}

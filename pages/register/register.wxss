@@ -1,6 +1,11 @@
 /* pages/register/register.wxss */
 page {
-	background-color:whitesmoke
+	background-color:rgb(231, 231, 231);
+	background-position: center center;
+	background-size: cover;
+	background: linear-gradient(to bottom, #d2dcdc, white);
+	opacity: 0.9;
+	background-repeat: inherit;
 }
 
 .top{
@@ -8,24 +13,28 @@ page {
 	font-weight: bold;
 	margin-top: 30rpx;
 	margin-left: 10rpx;
-	color: midnightblue;
+	color: rgba(25, 25, 112, 0.9);
 }
 .root{
-	margin-top: 30rpx;
+	margin-top: 80rpx;
 }
 
 .item{
 	display: flex;
 	background-color: white;
+	margin-left: 15rpx;
+	margin-right: 15rpx;
 	align-items: center;
 	padding: 30rpx 50rpx;
-	margin-bottom: 20rpx;
-	border-radius: 5%;
+	margin-bottom: 50rpx;
+	border-radius: 30rpx;
 	border: 3rpx solid whitesmoke;
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
 }
 
 .item text{
 	margin-right: 50rpx;
+	font-weight: bolder;
 }
 .btn{
 	background-color:black;

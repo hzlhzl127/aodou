@@ -1,11 +1,28 @@
 // pages/activity/activity.js
 Page({
+	onShow(){
+		let user = wx.getStorageSync('User');
+		if (!user) {
+			wx.showToast({
+				icon:'error',
+				title: '请登录',
+			}),
+			setTimeout(function() {
+				wx.switchTab({
+					url: '../person/person',
+				})
+			},400)
+			return;
+		}
+
+	},
 	data: {
-    activities: [] // 初始化为空数组
+		activities: [], // 初始化为空数组
+		number:[]
   },
 
 	onLoad(options) {
-	
+		
 		const db = wx.cloud.database();
     const activityCollection = db.collection('activity');
     activityCollection.doc(options.id).get().then(res => {
@@ -16,7 +33,9 @@ Page({
       });
     }).catch(err => {
       console.error(err);
-    });
+		});
+		
+
 	},
 	handleButtonClick: function () {
 		const that = this; // 保存页面实例的引用，以便在回调函数中使用
@@ -37,7 +56,7 @@ Page({
 					const options = that.options; // 获取页面参数
 					
 					wx.cloud.database().collection('activity').where({
-						number: user.account,
+						number: user.name,
 						_id: options.id,
 					}).get().then(res => {
 						if (res.data.length > 0) {
@@ -54,13 +73,16 @@ Page({
 
 					activityCollection.doc(options.id).update({
 						data: {
-							number: db.command.push(user.account) // 将当前用户标识添加到参与用户列表中
+							number: db.command.push(user.name) // 将当前用户标识添加到参与用户列表中
 						},
 						success: function (res) {
 							console.log('记录用户参与活动成功', res);
 							// 进行其他操作或页面刷新
 							wx.showToast({
 								title: '参加成功',
+							})
+							wx.redirectTo({
+								url: '../activity/activity?id='+options.id,
 							})
 						},
 						fail: function (err) {

@@ -6,8 +6,8 @@ Page({
 		let that = this
 
 		wx.chooseMedia({
-			mediaType:Image,
-			sourceType: ['album'],
+			mediaType:'image',
+			sourceType: ['album'||'camera'],
 			count:1,
 			sizeType:['compressed'],
 			success(res) {
@@ -21,8 +21,10 @@ Page({
 	},
 uploadImg(temFile){
 	console.log("要上传图片的临时路径",temFile)
+	const randomNum = Math.floor(Math.random() * 1000000);
+	const cloudPath = `用户头像/${randomNum}.jpg`;
 wx.cloud.uploadFile({
-	cloudPath:'用户头像.jpg',
+	cloudPath:cloudPath,
 	filePath:temFile,
 	success: res=>{
 		console.log('上传成功',res)
@@ -40,7 +42,7 @@ wx.cloud.uploadFile({
 		console.log('捕获到点击注册',e)
 		let item = e.detail.value
 		
-		if(!item.account||!item.password||!item.name||!item.age||!item.height||!item.weight||!item.sex){
+		if(!item.account||!item.password||!item.name){
 			wx.showToast({
 				icon:"error",
 				title: '请将信息填写完整',
@@ -54,11 +56,7 @@ wx.cloud.uploadFile({
 				_id:item.account,
 				password:item.password,
 				name:item.name,
-				age:item.age,
-				height:item.height,
-				weight:item.weight,
-				sex:item.sex,
-				avatarUrl: this.data.avatarUrl,
+				avatarUrl:this.data.avatarUrl,
 			}
 			
 		}).then(res=>{

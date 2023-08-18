@@ -1,48 +1,62 @@
 /* pages/activity/activity.wxss */
 page {
-  background-color:whitesmoke/* 设置背景颜色为白色 */
+	background-color:rgb(231, 231, 231);
+	background: linear-gradient(to bottom,#edd8d2,white);
+	background-position: center center;
+	background-size:1100rpx;
+	background-repeat: no-repeat;
+	opacity: 0.95;
 }
 
 .title{
 	position: absolute;
 	top: 150rpx;
-	font-size:xx-large;
+	font-size:100rpx;
+	font-family:cursive;
 	text-align: center;
-	font-weight: bold;
+	font-weight: bolder;
 	margin: 30rpx;
-	color:skyblue
+	color:white;
+	background: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5));
+	padding: 25rpx;
+	border-radius: 25rpx;
 }
 
 .full-width-image {
 	width: 100%;
-	
-	height: 400rpx;
+	height: 600rpx;
 }
 
 .container {
-	padding:10rpx ;
+	padding: 5rpx;
+	height: 850rpx;
 	background-color:white;
-	
+	position: absolute;
+	top:490rpx;
+	border-radius: 25rpx;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info1{
-height: 300rpx;
-width: 100%;
-background-color:white;
+height: 600rpx;
+width: 96%;
+margin-top: 40rpx;
 border: 3rpx solid #ccc;
-border-radius: 10rpx;
-border-radius: 10rpx;
+border-radius: 20rpx;
+padding-bottom: 30rpx;
 }
 .info2{
 	margin: 30rpx;
 	font-size: small;
+	line-height: 2;
+	line-break: loose;
 }
 
 .info {
-	padding: 50rpx 100rpx;
-	margin-bottom: 10rpx;
+	margin: 40rpx;
+	margin-bottom: 40rpx;
 	width: 660rpx;
-	background-color:white;
+
 
 }
 .info3{
@@ -52,4 +66,51 @@ border-radius: 10rpx;
 
 .activity-info view {
   margin-bottom: 5rpx;
+}
+
+
+.btn{
+	margin: 120rpx 50rpx;
+	margin-bottom: 20rpx;
+	background-color:midnightblue;
+	color: white;
+}
+
+.item{
+
+	display: flex;
+	align-items: center;
+	background-color: white;
+	height: 130rpx;
+	margin-bottom: 20rpx;
+	border-radius: 25rpx;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.right_arrow{
+	height: 50rpx;
+	width: 50rpx;
+	right: 30rpx;
+	margin-left:auto;
+	margin-right: 30rpx;
+}
+
+.item_name{
+	font-size: 42rpx;
+	margin-left: 30rpx;
+	color: midnightblue;
+	font-size: 32rpx;
+	
+}
+
+.join{
+	font-weight: bold;
+	font-size: large;
+	margin: 200rpx 20rpx;
+	margin-bottom: 50rpx;
+	color:tomato;
+}
+
+.all{
+	position: relative;
 }

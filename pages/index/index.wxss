@@ -1,17 +1,23 @@
 /**index.wxss**/
 page {
-  background-color:whitesmoke /* 设置背景颜色为白色 */
+	background-color:white;
+	background: linear-gradient(to bottom, whitesmoke, white);
+
+	background-position: center center;
+	background-size:cover;
+	opacity: 0.93;
+	background-repeat: no-repeat;
 }
 
 swiper{
 	width: 100%;
-	background-color: black;
-	
+	height: 370rpx;
+	margin-top: 20rpx;
 }
 
 .full-width-image {
-
-	width: 100%;
+	width: 95%;
+	margin-left: 20rpx;
 	border-radius: 15rpx;
 }
 
@@ -29,7 +35,7 @@ swiper{
   float: right;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 25%;
   object-fit: cover;
   margin-left: 10px; /* 添加左边距以与内容框分隔开 */
 }
@@ -39,29 +45,120 @@ swiper{
   align-items: center; /* 在主轴上垂直居中 */
   justify-content: space-between; /* 在主轴上两端对齐，图片和内容框之间的空间平分 */
   border: 1rpx solid white;
-  border-radius: 10rpx;
+  border-radius: 50rpx;
   padding: 30rpx;
   padding-top: 20rpx;
   padding-bottom: 60rpx;
-  margin-bottom: 30rpx;
-	width: 660rpx;
+  margin-bottom: 50rpx;
+	width: 640rpx;
 	height: 220rpx;
-  background-color: white;
+	background-color: white;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .activity-name {
-	color: black;
+	color: white;
+	padding: 7rpx;
+	padding-left: 20rpx;
 	float: top;
   font-size: 40rpx;
   font-weight: bold;
-
+	background-color: #594594;
+	border-radius: 25rpx;
 }
 
 .activity-info {
   font-size: 20rpx;
-  color: #666;
+	color: #666;
 }
 
 .activity-info view {
-  margin-bottom: 5rpx;
+	margin-bottom: 5rpx;
+}
+
+.tab{
+	display: flex;
+	width: 540rpx;
+	height: 40rpx;
+	padding: 5rpx 10rpx;
+	justify-content: space-between;
+	background-color: white;
+	margin: 0rpx auto;
+	margin-top: 40rpx;
+	border-radius:25rpx;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.tab_list{
+	margin:10rpx 30rpx;
+	font-size:17rpx;
+	color: gray;
+	padding: 5rpx;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 50rpx;
+  right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2rpx 20rpx rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-to {
+  position: fixed;
+  bottom: 200rpx;
+  right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2rpx 20rpx rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-to-top-icon {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.search-container {
+	display: flex;
+  align-items: center;
+	padding:5rpx;
+	padding-top: 10rpx;
+	padding-bottom: 15rpx;
+	background-color:#284155;
+	border-radius: 0% 0% 15rpx 15rpx;
+}
+
+.search-input {
+	display: flex;
+  flex: 1;
+	height: 5px;
+	margin-left: 30rpx;
+	margin-right: 40rpx;
+  padding: 2px 15px;
+	background-color:rgba(245, 245, 245, 0.89);
+	caret-color:white;
+	color:white;
+	font-size: x-small;
+	border-radius: 25rpx;
+}
+
+.checkTab{
+	margin:10rpx 30rpx;
+	font-size: x-small;
+	color:black;
+	padding: 5rpx;
+	background-color: #d2dcdc;
+	border-radius: 25rpx;
+	padding: 1rpx;
 }

@@ -30,13 +30,13 @@ register(){
 		let account = this.data.account
 		let password = this.data.password
 
-		if(!account||!password){
-			wx.showToast({
-				icon:"error",
-				title: '请输入账号密码',
-			})
-			return
-		}
+		// if(!password){
+		// 	wx.showToast({
+		// 		icon:"error",
+		// 		title: '请输入账号密码',
+		// 	})
+		// 	return
+		// }
 		console.log('account=',account)
 		console.log('password=',password)
 

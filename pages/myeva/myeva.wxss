@@ -1,0 +1,26 @@
+/* pages/myeva/myeva.wxss */
+page {
+
+	background-position: center center;
+	background-size: cover;
+	background: linear-gradient(to bottom, #284155,white, white);
+	opacity: 0.98;
+	background-repeat: inherit;
+}
+.top{
+	height: 800rpx;
+	width: 600rpx;
+	background-color: white;
+	margin: 50rpx auto;
+	padding: 50rpx;
+	line-height: 2.5;
+	font-size: small;
+	border-radius: 10%;
+	box-shadow: 1rpx 1rpx 5rpx rgba(0,0,0,0.5);
+	color: gray;
+}
+.img{
+	height: 400rpx;
+	width: 400rpx;
+	margin: 50rpx 100rpx;
+}
