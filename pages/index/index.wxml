@@ -1,0 +1,47 @@
+<view class="search-container">
+	<image  bindtap="sear" style="height:45rpx;width:45rpx;margin-left:30rpx;margin-right:-5rpx;margin-bottom: 5rpx;" src="/picture/放大镜.png" mode=""/>
+  <input class="search-input" placeholder=" 点击问号搜索" bindinput="handleInput"></input>
+ 
+</view>
+<swiper autoplay circular indicator-dots>
+  <block wx:for="{{imageUrls}}" wx:key="index">
+    <swiper-item>
+      <image class="full-width-image" src="{{item}}" mode="widthFix"></image>
+    </swiper-item>
+  </block> 
+</swiper>
+
+
+
+
+<view  class="tab">
+	<view bindtouchend="tab" id="1" bindtouchstart="tabTouch" class="{{tabClass1}}">综合排序</view>
+	
+	<view bindtouchend="tab" id="2" bindtouchstart="tabTouch" class="{{tabClass2}}">热门排序</view>
+	
+	<view bindtouchend="tab" id="3" bindtouchstart="tabTouch" class="{{tabClass3}}">离我最近</view>
+</view>
+<view class="container" wx:if="{{showElement}}" >
+  <view class="activity-list">
+    <block wx:for="{{activities}}" wx:key="index">
+      <view class="activity-item" bindtap="goToPage" data-id="{{item._id}}">
+				
+        <view class="activity-info">	
+					<view class="activity-name">{{item.name}}</view>
+					<view>________</view>
+          <view>⏰ 开始时间：{{item.starTime}}</view>
+          <view>⏰ 结束时间：{{item.endTime}}</view>
+          <view>📍 活动地点：{{item.place}}</view>
+        </view>
+				<view><image src="{{item.avatarUrl}}" class = "indeximg"/></view>
+      </view>
+    </block>
+  </view>
+</view>
+<view class="back-to-top" bindtap="scrollToTop" wx:if="{{showBackToTop}}">
+  <image class="back-to-top-icon" src="../../picture/向上4.png"></image>
+</view>
+
+<view class="back-to" bindtap="put" wx:if="{{show}}">
+  <image class="back-to-top-icon" src="../../picture/add.png"></image>
+</view>

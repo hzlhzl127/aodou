@@ -1,0 +1,76 @@
+/* pages/put/put.wxss */
+page {
+	background: linear-gradient(to bottom, #284155,white,white, white);
+	background-repeat: no-repeat;
+}
+
+.top{
+	font-size: 90rpx;
+	font-weight: lighter;
+	margin-top: 30rpx;
+	margin-left: 10rpx;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.root{
+	margin-top: 30rpx;
+}
+
+.item{
+	display: flex;
+	background-color: white;
+	align-items: center;
+	padding: 30rpx 20rpx;
+	margin-bottom: 20rpx;
+	border-radius: 25rpx;
+	border: 3rpx solid whitesmoke;
+	box-shadow: 1rpx 1rpx 8rpx rgba(0, 0,0 ,0.5);
+}
+.item text{
+	margin-left: 20rpx;
+	border-radius: 25rpx;
+	color: black;
+	
+	padding: 5rpx;
+}
+.item1{
+	display: flex;
+	background-color: white;
+	padding: 30rpx 20rpx;
+	margin-bottom: 20rpx;
+	border-radius: 25rpx;
+	border: 3rpx solid whitesmoke;
+	height: 300rpx;
+	box-shadow: 1rpx 1rpx 8rpx rgba(0, 0,0 ,0.5);
+}
+.item1 text{
+	background-color: rgba(128, 128, 128, 0.8);
+	width: 300rpx;
+	height: 50rpx;
+	border-radius: 25rpx;
+	color: white;
+	padding: 5rpx;
+}
+text{
+	margin-right: 50rpx;
+}
+
+.btn{
+	background-color:black;
+	color: white;
+	font-weight: bold;
+	margin: 50rpx 90rpx;
+	box-shadow: 1rpx 1rpx 8rpx rgba(0, 0,0 ,0.5);
+	
+}
+.btn1{
+	background-color: white;
+	font-weight: bold;
+	margin: 50rpx 90rpx;
+	box-shadow: 1rpx 1rpx 8rpx rgba(0, 0,0 ,0.5);
+}
+
+.all{
+	height: 1600rpx;
+	padding: 10rpx;
+}

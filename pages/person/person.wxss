@@ -1,0 +1,107 @@
+/* pages/person/person.wxss */
+page {
+	background-color:whitesmoke;
+	background: linear-gradient(to bottom, #284155,whitesmoke,white);
+	background-position: center center;
+	background-size:cover;
+	opacity: 0.95;
+}
+
+.toproot{
+	display: flex;
+	align-items: center;
+	margin-top: 130rpx;
+	margin-bottom: 50rpx;
+}
+
+.topimg{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 50%;
+	margin: 40rpx;
+	box-shadow:1rpx 1rpx 50rpx rgba(255, 255, 255, 0.4);
+}
+
+.top_name{
+	margin-left: 30rpx;
+	font-size: 70rpx;
+	color:white;
+	font-weight: lighter;
+	padding: 5rpx 10rpx;
+	
+	
+}
+
+.login_out{
+	width: 130rpx;
+	justify-content: center;
+	padding-left: 20rpx;
+	margin-left: 40rpx;
+	font-size: 25rpx;
+	margin-top: 20rpx;
+	color:tomato;
+	background-color: whitesmoke;
+	border-radius: 25rpx;
+}
+
+.item{
+	padding: 5rpx;
+	display: flex;
+	align-items: center;
+	height: 90rpx;
+	margin-bottom: 40rpx;
+	font-weight: lighter;
+}
+
+.right_arrow{
+	height: 40rpx;
+	width: 40rpx;
+	margin-left: auto;
+	margin-right: 20rpx;
+}
+
+.item_name{
+	font-size: 30rpx;
+	margin-left: 40rpx;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+button{
+	width: 100%;
+	
+	border: none;
+	text-align: left;
+	padding: 0%;
+	margin: 0px;
+	line-height: 1.3;
+}
+button::after{
+	border: none;
+	border-radius: 0;
+}
+
+.button-hover {
+	color:gray;
+	background-color: white;
+}
+
+.box{
+	height: 800rpx;
+	padding-top: 80rpx;
+	border-radius: 50rpx 50rpx 0rpx 0rpx;
+	background-color: white;
+}
+
+.check-item{
+	padding: 5rpx;
+	display: flex;
+	align-items: center;
+	height: 90rpx;
+	margin-bottom: 40rpx;
+
+	border-radius: 15rpx;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	font-weight: lighter;
+	color: #597594;
+
+}

@@ -1,0 +1,49 @@
+<!--pages/put/put.wxml-->
+<view class="all">
+
+<form bindsubmit="register">
+	
+
+	<view class="top">发布活动</view>
+	<view class="root">
+		<view class="item">
+					<text>活动名称:</text>
+					<input name='name'/>
+		</view>
+		<view class="item">
+					<text>活动地点:</text>
+					<input placeholder="活动详细地点" name='place'/>
+		</view>
+
+
+		<picker mode="date" id="1" value="{{starTime}}" bindchange="DateChange" name="starTime">
+  <view class="item">
+    <text>开始时间:</text> {{starTime}}
+  </view>
+</picker>
+
+<picker mode="date" id="2" value="{{endTime}}" bindchange="DateChange" name="endTime">
+  <view class="item">
+    <text>结束时间:</text> {{endTime}}
+  </view>
+</picker>
+
+
+		<view class="item">
+					<text>活动群号:</text>
+					<input placeholder="QQ群号,vx群号等" name='contact'/>
+		</view>
+		<view class="item1">
+					<text>💬 详情描述:</text>
+					<textarea placeholder="例如:该比赛旨在为篮球爱好者提供一个展示技巧和竞争实力的平台..." name='actext'/>
+		</view>
+	
+	<view>
+			<button class="btn1" bindtap="chooseImg">👉 活动主题图片 👈</button>
+	</view>
+	
+	</view>
+	<button class="btn" form-type="submit">👉 发布活动 👈</button>
+		
+	</form>
+</view>

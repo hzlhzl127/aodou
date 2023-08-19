@@ -1,0 +1,25 @@
+/* pages/course/course.wxss */
+page {
+	background-color:white;
+	background: linear-gradient(to bottom, #284155, white);
+	background-repeat: no-repeat;
+}
+.top{
+	height: 1000rpx;
+	width: 600rpx;
+	background-color: white;
+	margin: 50rpx auto;
+	padding: 50rpx;
+	line-height: 2.5;
+	font-size: small;
+	border-radius: 50rpx;
+	color: gray;
+	text-align: center;
+}
+.img{
+	margin-right: 50rpx;
+	margin-top: 50rpx;
+	height: 800rpx;
+	width: 600rpx;
+	border-radius: 25rpx;
+}

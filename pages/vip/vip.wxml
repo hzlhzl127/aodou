@@ -1,0 +1,5 @@
+<!--pages/vip/vip.wxml-->
+<view class="top">
+<image src="../../picture/www.yalijuda.com_cache_-7e0441973ec854f1._6NSgo8l_4n.jpg" class="img"/>
+请添加客服vx,详情了解会员套餐</view>
+

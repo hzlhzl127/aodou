@@ -1,0 +1,78 @@
+/* pages/myjoin/myjoin.wxss */
+
+page {
+	background: linear-gradient(to bottom, #284155,white,white, white);
+	background-position: center center;
+	background-size: cover;
+	
+	opacity: 0.98;
+	background-repeat: inherit;
+}
+
+.top{
+	font-size: x-large;
+	margin: 150rpx 30rpx;
+	margin-bottom: 40rpx;
+	font-weight: lighter;
+	color: white;
+	background-color: #364a88;
+	width: 440rpx;
+	border-radius: 50rpx;
+}
+
+.indeximg {
+	margin-top: 30rpx;
+  float: right;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 20%;
+  object-fit: cover;
+  margin-left: 10px; /* 添加左边距以与内容框分隔开 */
+}
+
+.activity-item {
+  display: flex; /* 使用 Flexbox 布局 */
+  align-items: center; /* 在主轴上垂直居中 */
+  justify-content: space-between; /* 在主轴上两端对齐，图片和内容框之间的空间平分 */
+  border: 1rpx solid white;
+  border-radius: 50rpx;
+  padding: 30rpx;
+  padding-top: 20rpx;
+	padding-bottom: 60rpx;
+  margin-bottom: 30rpx;
+	width: 660rpx;
+	height: 220rpx;
+	background-color: white;
+	box-shadow: 1rpx 1rpx 8rpx rgba(0, 0,0 ,0.5);
+	z-index: 2;
+
+}
+
+.activity-name {
+	color: black;
+	float: top;
+  font-size: 40rpx;
+  font-weight: bold;
+
+}
+
+.activity-info {
+  font-size: 20rpx;
+  color: #666;
+}
+
+.activity-info view {
+  margin-bottom: 5rpx;
+}
+
+.container{
+	position: relative;
+	background-color: white;
+	border-radius: 50rpx;
+}
+
+.img{
+	position: absolute;
+	width: 350rpx;
+	height: 350rpx;
+}

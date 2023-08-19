@@ -1,0 +1,40 @@
+<!--pages/activity/activity.wxml-->
+<view class="all">
+	<view class="title">{{activities.name}}</view>
+	<view class="banner">
+		<image class="full-width-image" src="{{activities.avatarUrl}}" />
+	</view>
+	
+
+	<view class="container">
+ 
+<view class="info1">
+	<view class="info2">{{activities.actext}}</view>
+</view>
+		
+
+
+  <view class="info">
+          <view class="info3">开始时间：{{activities.starTime}}</view>
+          <view class="info3">结束时间：{{activities.endTime}}</view>
+          <view class="info3">活动地点：{{activities.place}}</view>
+					<view class="info3">添加群号：{{activities.contact}}</view>
+					<button class="btn" bindtap="handleButtonClick">👉 参与此活动 👈</button>
+
+					<view class="join">
+	已参与活动的用户:
+</view>
+<view>
+  <block wx:for="{{activities.number}}" wx:key="index">
+
+		<view class="item">
+    <view class="item_name">{{item}}</view>
+    <image src="../../picture/用户.png" class ="right_arrow"/>
+    </view>
+
+  </block>
+</view>
+  </view>
+</view>
+   
+</view>

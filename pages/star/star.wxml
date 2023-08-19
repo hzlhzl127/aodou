@@ -1,0 +1,67 @@
+<!--pages/star/star.wxml-->
+
+<view class="top">👑</view>
+
+<view class="item">
+<image class="img" src="https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/ddf.jpg?sign=895a4d090d886cb4e732344930cc4c38&t=1685707373" mode=""/>
+<view class="item_data">
+<view class="name">丁东方</view>
+<view class="introduce">
+	<text decode="true">&ensp;&ensp;曾服役于中国人民解放军陆军某战斗序列。曾在新兵连时期获得新兵篮球联赛冠军，并以场均20余分的成绩获得新兵篮球联赛MVP及总决赛MVP。有着7年球龄的他如今重返校园，并在鏊斗篮球训练营就职篮球专业训练师及体能专业训练师。作为鏊斗篮球训练营的专业教练，目前已教授中小学生300余人次。</text>
+</view>
+</view>
+</view>
+
+<view class="item">
+<image class="img" src="https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/xy.jpg?sign=b91671eec2b7530bdacd01f0f5aacbd9&t=1685707419" mode=""/>
+<view class="item_data">
+<view class="name">徐阳</view>
+<view class="introduce">
+	<text decode="true">&ensp;&ensp;曾担任经管学院院队首发小前锋。曾在大一期间的学校新生杯荣获新生杯联赛MVP，并带队获得新生杯总冠军。高中期间曾担任河南省某市一家篮球训练营业余教练，有着5年球龄的他如今在鏊斗篮球训练营担任专业篮球教练及篮球技巧教练，并已获得篮球裁判证书，在鏊斗比赛中担任助理裁判。目前已教授中小学生200余人次。</text>
+</view>
+
+</view>
+</view>
+
+<view class="item">
+<image class="img" src="https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/image.png?sign=4fffeff5cbebb7f1eb70d68e14692268&t=1686028859" mode=""/>
+<view class="item_data">
+<view class="name">邹建中</view>
+<view class="introduce">
+	<text decode="true">&ensp;&ensp;目前担任经管学院篮球院队首发大前锋。在此次学校新生杯荣获新生杯联赛MVP，并带队获得新生杯亚军。高中期间曾担任湖北省武汉市一家私人篮球训练营业余教练，有着6年球龄的他如今在鏊斗篮球训练营担任篮球技巧教练，并已获得篮球裁判证书。已参加鏊斗篮球杯一次，获得2022级鏊斗篮球杯三等奖。
+</text>
+</view>
+</view>
+</view>
+
+<view class="item">
+<image class="img" src="https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/image.jfif?sign=0924b5f5e603c05e0b906beaf8512e2e&t=1686028912" mode=""/>
+<view class="item_data">
+<view class="name">朱文杰</view>
+<view class="introduce">
+	<text decode="true">&ensp;&ensp;目前服役于经管学院篮球院队。在此次学校新生杯中曾单场拿下10+5+5的全面数据（得分、篮板、助攻）。高中时期担任学校篮球队首发大前锋，篮球技巧全面，擅长篮板球和传球属于全能型组织大前锋。目前在鏊斗篮球训练营中担任助理教练，主要负责训练者的理论知识以及体能训练。</text>
+</view>
+</view>
+</view>
+
+<view class="item">
+<image class="img" src="https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/image%20(1).jfif?sign=f62c3772def85111e1d4a93618ff95c2&t=1686029018" mode=""/>
+<view class="item_data">
+<view class="name">蒋勋建</view>
+<view class="introduce">
+	<text decode="true">&ensp;&ensp;目前担任经管学院篮球院队首发小前锋。在此次学校新生杯中曾经拿到单场22分的高得分。高中时期担任学校篮球队队长。篮球技巧全面，擅长体能训练。目前担任鏊斗篮球训练营助理教练兼体能教练，主要负责训练营的体能训练。</text>
+</view>
+</view>
+</view>
+
+<view class="item">
+<image class="img" src="https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/image%20(2).jfif?sign=71603216e1efda5c9c6e95fa438c199d&t=1686028994" mode=""/>
+<view class="item_data">
+<view class="name">熊梓昂</view>
+<view class="introduce">
+	<text decode="true">&ensp;&ensp;目前担任经管学院篮球院队首发组织后卫。在此次学校篮球新生杯中作为球队进攻发动机以及防守尖兵。高中时期曾在武汉某篮球训练营担任业余助理教练。目前担任鏊斗篮球训练营助理教练以及篮球技巧教练。
+</text>
+</view>
+</view>
+</view>
+

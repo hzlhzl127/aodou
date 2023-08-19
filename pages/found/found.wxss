@@ -1,0 +1,82 @@
+/* pages/found/found.wxss */
+page {
+  background: linear-gradient(to bottom, whitesmoke, white);
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.9;
+}
+.item{
+	display: flex;
+	align-items: center;
+	background-color: white;
+	height: 90rpx;
+	border-radius: 20rpx;
+	opacity: 0.9;
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+	margin-bottom: 20rpx;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.item-check{
+	display: flex;
+	align-items: center;
+	background-color: white;
+	height: 90rpx;
+	border-radius: 20rpx;
+	opacity: 0.9;
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+	margin-bottom: 20rpx;
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+}
+
+.right_arrow{
+	height: 40rpx;
+	width: 40rpx;
+	margin-left: auto;
+	margin-right: 30rpx;
+}
+
+.item_name{
+	font-size: 28rpx;
+	margin-left: 40rpx;
+	padding: 5rpx;
+	border-radius: 45rpx;
+}
+.first{
+	margin-top: 80rpx;
+	
+	border-radius: 5%;
+	position: relative;
+
+	
+}
+
+.second{
+	margin-top: 80rpx;
+	
+	border-radius: 5%;
+
+
+}
+
+.video {
+	margin: 10rpx;
+	position: relative;
+  width: 725rpx;
+	height: 400rpx;
+	border-radius: 20%;
+
+}
+.text-overlay {
+	
+	font-size: smaller;
+   /* 距离视频左侧的距离 */
+	color: white; /* 字体颜色 */
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	width: 200rpx;
+	padding: 2rpx;
+	padding-left: 10rpx;
+
+}

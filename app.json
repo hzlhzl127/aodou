@@ -1,0 +1,62 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [
+		"pages/index/index",
+		"pages/found/found",
+		"pages/person/person",
+		"pages/customer/customer",
+		"pages/activity/activity",
+		"pages/login/login",
+		"pages/put/put",
+		"pages/register/register",
+		"pages/myact/myact",
+		"pages/myjoin/myjoin",
+		"pages/myeva/myeva",
+		"pages/xi/xi",
+		"pages/star/star",
+		"pages/course/course",
+		"pages/vip/vip",
+		"pages/lo/lo"
+	],
+	"window": {
+		"navigationBarTitleText": "鏖斗篮球",
+		"navigationBarBackgroundColor": "#284155"
+	},
+	"tabBar": {
+		"color": "#00000",
+		"selectedColor": "587594",
+		"backgroundColor": "#fffff",
+		"borderStyle": "white",
+		"list": [
+			{
+				"iconPath": "picture/订单1.png",
+				"selectedIconPath": "picture/订单1 (1).png",
+				"renderer": "skyline",
+				"pagePath": "pages/index/index",
+				"text": "活动"
+			},
+			{
+				"iconPath": "picture/多平台处理.png",
+				"selectedIconPath": "picture/多平台处理 (1).png",
+				"pagePath": "pages/found/found",
+				"text": "发现"
+			},
+			{
+				"iconPath": "picture/重要人物.png",
+				"selectedIconPath": "picture/重要人物 (1).png",
+				"pagePath": "pages/person/person",
+				"text": "个人"
+			}
+		]
+	},
+	"plugins": {
+		"tencentvideo": {
+			"version": "1.4.0",
+			"provider": "wxa75efa648b60994b"
+		}
+	},
+	"networkTimeout": {
+		"request": 10000,
+		"downloadFile": 10000
+	}
+}

@@ -1,0 +1,44 @@
+/* pages/login/login.wxss */
+page {
+	background-color:whitesmoke;
+	background-image: url("https://636c-cloud1-9g4rerxi7c82be09-1318287489.tcb.qcloud.la/%E9%A1%B5%E9%9D%A2%E5%9B%BE%E7%89%87/tutieshi_640x360_22s.gif?sign=82a9d279058a082241e1533f2c2634a4&t=1689925927");
+	background-position: center center;
+	background-size:cover;
+	opacity: 0.95;
+}
+.logo{
+	width: 250rpx;
+	height: 250rpx;
+	margin: 80rpx;
+}
+.top{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.item{
+	display: flex;
+	background-color: rgb(243, 242,242,0.95);
+	align-items: center;
+	padding: 30rpx 50rpx;
+	border-radius: 15rpx;
+	margin: 10rpx;
+	margin-top: 50rpx;
+	
+}
+.item text{
+	margin-right: 50rpx;
+	color: black;
+	font-weight: bolder;
+}
+.btn{
+	background-color:black;
+	color: white;
+	font-weight: bold;
+	margin: 50rpx 90rpx;
+}
+.sign{
+	color: red;
+	text-align: center;
+}

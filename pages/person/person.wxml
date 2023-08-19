@@ -1,0 +1,61 @@
+<!--pages/person/person.wxml-->
+
+
+		<!--已经登录--->
+		<view class="toproot" wx:if="{{user&&user.name}}">
+		
+		<image src="{{user.avatarUrl}}" class="topimg" />
+		<view>
+			<view class="top_name">{{user.name}}</view>
+	     <view class = "login_out" bindtap="loginOut">退出登录</view>
+		</view>
+	
+</view>
+
+
+<!--未登录-->
+
+	<view class="toproot" wx:else>
+		<image src="../../picture/我的.png" class="topimg" mode=""/>
+			<view class="top_name" bindtap="login">登录</view>     
+	</view>
+
+
+
+
+
+<view class="box">
+
+<view wx:if="{{user&&user.name}}">
+
+<view class="{{buttonClass1}}" id="1" bindtouchend="myjoin" bindtouchstart="touch">
+<view class="item_name">🎫 我的报名</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+<view class="{{buttonClass2}}"id="2" bindtouchend="myeva" bindtouchstart="touch">
+<view class="item_name">🏀 我的评测</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+<view class="{{buttonClass3}}" id="3" bindtouchend="myact" bindtouchstart="touch">
+<view class="item_name">🎏 我发布的</view>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+	
+</view>
+
+
+<view class="{{buttonClass4}}" id="4" bindtouchend="myadv" bindtouchstart="touch">
+<button class="item_name" open-type="feedback">💡 反馈建议</button>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+<view class="{{buttonClass5}}" id="5" bindtouchend="mybot" bindtouchstart="touch">
+<button class="item_name" open-type="contact">💬 在线客服</button>
+<image src="../../picture/箭头 右.png" class ="right_arrow"/>
+</view>
+
+
+
+
+
+</view>
+
